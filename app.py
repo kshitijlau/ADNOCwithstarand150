@@ -291,7 +291,7 @@ Summary Paragraph: A single paragraph.
 
 Bulleted Points: Two strengths and two development areas, each as a single-sentence bullet point.
 
-Word count: the total word count of summary paragraph and bulleted points should be always less than 150 words.
+Word count: the total word count of summary paragraph and bulleted points should strictly be less than 150 words, there should no deviation from this rule.
 
 As it has markdown formatting for strengths and development actions and the bullet points in them follow that as well. 
 
