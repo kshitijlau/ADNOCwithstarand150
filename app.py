@@ -187,17 +187,16 @@ Development Comment (Steers_Change): The candidate would benefit from proactivel
 CORRECT OUTPUT:
 Ayesha demonstrates average potential for growth and success in a more complex role. A confident and resilient problem-solver, she navigates ambiguity well and shows an awareness of the bigger picture. While she is adaptable to change and supports others' development, her drive to achieve goals can be inconsistent, and she may need support to remain decisive during uncertainty. Her primary development area is in stakeholder engagement, where she would benefit from building stronger, more collaborative relationships.
 
-Strengths:
+**Strengths:**
 
-Demonstrates strong ability to identify issues proactively and develop effective, logical solutions.
+*   Demonstrates strong ability to identify issues proactively and develop effective, logical solutions.
+*   Demonstrates a solid understanding of both short-term and long-term strategic approaches to projects.
 
-Demonstrates a solid understanding of both short-term and long-term strategic approaches to projects.
+**Development Areas:**
 
-Development Areas:
+* Could benefit from ensuring that the mutual objectives of relevant stakeholders are aligned and supported, to secure buy-in and sustain long-lasting relationships.
 
-Could benefit from ensuring that the mutual objectives of relevant stakeholders are aligned and supported, to secure buy-in and sustain long-lasting relationships.
-
-Would benefit from proactively seeking to understand the underlying reasons for change to better sustain team motivation.
+* Would benefit from proactively seeking to understand the underlying reasons for change to better sustain team motivation.
 
 EXAMPLE 2
 
@@ -218,17 +217,17 @@ Development Comment (Manages_Stakeholders): Minor development could be focused o
 CORRECT OUTPUT:
 Badreyah demonstrates high potential for growth and success in a more complex role. She excels in changing and complex environments, showing great adaptability and decisiveness. A natural leader, she inspires others and builds strong, trust-based relationships while focusing on team development. Badreyah consistently demonstrates high motivation to achieve results, approaches her work with a strategic focus on the bigger picture, and solves challenges with confidence. Her development can focus on scaling these impressive strengths for even greater complexity.
 
-Strengths:
+**Strengths:**
 
-Demonstrated strong comfort with changing environments and is supportive of adopting change initiatives.
+* Demonstrated strong comfort with changing environments and is supportive of adopting change initiatives.
 
-Demonstrates a high level of confidence in building relationships and understanding the needs of others.
+* Demonstrates a high level of confidence in building relationships and understanding the needs of others.
 
 Development Areas:
 
-Development could be orientated towards improving task prioritization and effectively allocating workload to focus on strategically important activities.
+* Development could be orientated towards improving task prioritization and effectively allocating workload to focus on strategically important activities.
 
-Could focus on developing strategies to maintain key relationships over the long term that support sustained business outcomes.
+* Could focus on developing strategies to maintain key relationships over the long term that support sustained business outcomes.
 
 Now, using the rules and interpretation matrices in the Appendix below, generate a report for the new candidate data provided.
 
@@ -288,9 +287,13 @@ APPENDIX: RULES AND MATRICES
 1. Output Structure
 Your final output must contain two parts:
 
-Summary Paragraph: A single paragraph of approximately 150 words.
+Summary Paragraph: A single paragraph.
 
 Bulleted Points: Two strengths and two development areas, each as a single-sentence bullet point.
+
+Word count: the total word count of summary paragraph and bulleted points should be always less than 150 words.
+
+As it has markdown formatting for strengths and development actions and the bullet points in them follow that as well. 
 
 2. Generation Process and Rules
 Follow this sequential process precisely.
@@ -376,7 +379,6 @@ Overall Leadership Potential Matrix
 | Thinks Strategically| Approaches work with a strong focus on the bigger picture. Operates independently with minimal guidance. Demonstrates a commercial and strategic mindset, regularly anticipating trends and their impact. Understands potential risks and seeks guidance to address the issues. Strong ability to revise strategies based on team needs while prioritising tasks accordingly in order to meet set deadlines. | Demonstrates awareness of the bigger picture but may need occasional guidance. Understands strategy in parts but may not consistently anticipate trends or broader implications. Can identify risks with some guidance and seeks input occasionally to address issues. Demonstrates some ability to revise plans but may need reminders to prioritise effectively. | Focus tends to be on immediate tasks, creating an opportunity to develop a greater awareness of the bigger picture. Benefits from guidance to align goals with team direction and recognize potential risks. Development can focus on addressing issues and revising plans with greater independence. |
 | Solves Challenges | Consistently addresses problems and challenges with confidence and resilience. Takes a diligent, practical, and solution-focused approach to solving issues. Will likely remain composed in the face of setbacks and approach problems with a positive “can do” attitude. | Demonstrates ability to address problems but may need support or time to build confidence and resilience. Attempts a practical approach but not always solution-focused. Moderate ability to identify issues proactively, and takes action when promoted. Sometimes may struggle to remain composed under pressure. | Struggles to address problems confidently. May rely heavily on others and may not take a practical or solution-oriented approach. Does not prioritise working with others to solve problems and identify solutions. Struggles to remain composed under pressure or maintain a positive approach. |
 | Steers Change | Thrives in change and complexity in the workplace. Manages new ways of working with adaptability, flexibility, and decisiveness during uncertainty. Supports implementation of new change initiatives and takes appropriate follow-up action. | Generally copes with change and can adapt when needed. May need support to remain flexible or decisive in uncertain situations. Operates with a degree of comfort when facts are not fully available and support change initiatives, but follow-up action may be delayed or inconsistent. | Struggles with change or uncertainty. May resist new ways of working and has difficulty adapting or deciding in changing circumstances. May be uncomfortable operating when facts are unclear and is unlikely to support change initiatives. |
-
 """
                         # --- Create a single dictionary with all keys transformed to use underscores ---
                         format_dict = {}
